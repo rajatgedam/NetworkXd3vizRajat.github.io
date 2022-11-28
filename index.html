@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Major Assignment 3: Part 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="d3.min.js"></script>
+    
+    <script src="main.js"></script>
+
+</head>
+</head>
+<body>
+<script>
+    d3.json("networkDataPart2.json").then(function (data){
+
+        let svg = d3.select('body').append("svg").attr("viewBox","-800 -900 3200 3200")
+        //console.log(data)
+        simulate(data,svg) // main function to make network
+
+    })
+
+</script>
+
+</body>
+</html>
