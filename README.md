@@ -4,7 +4,8 @@ D3.js Network X viz
 
 Created a network from interrelated (cited) publications and visualized it using D3 JS library. 
 
-
+The nodes of the network are connected using the following attributes: 
+"Title","Year","Citations","Publisher"
 
 
 
